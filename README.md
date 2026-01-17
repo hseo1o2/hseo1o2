@@ -31,3 +31,7 @@
       src="https://img.shields.io/badge/0102jhshs@ewha.ac.kr-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
 </a>
 </div>
+
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/hseo1o2"/>
+</a>
