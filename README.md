@@ -217,7 +217,7 @@ Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/
 | 프로젝트 | 구현한 내용 | 근거 |
 |---|---|---|
 | **Knock: Mentor Verification Backend** | AWS Lambda 기반으로 회사 이메일과 PDF 두 가지 멘토 인증 흐름을 구현했습니다. DynamoDB verification session, OTP 만료와 재시도 잠금, 업로드 소유권·만료·실제 파일 검증, 중복 신청 방지를 API와 persistence layer에 반영했습니다. | Private startup contribution |
-| **GoingLive** | LiveKit WebRTC와 Supabase Edge Functions를 연결해 방송 lifecycle, viewer 참여와 실시간 boost를 구현했습니다. Email OTP, server-side data metering, realtime leaderboard, QR 공유, PWA cache와 오류 복구도 담당했습니다. | Private product prototype |
+| **Realtime Streaming Platform** | 창업팀의 실시간 streaming MVP에서 LiveKit WebRTC와 Supabase Edge Functions를 연결했습니다. 인증, 방송 lifecycle, realtime event 처리, 사용량 계산, PWA cache와 오류 복구를 구현했습니다. | Private startup contribution · Product and source not disclosed |
 
 ### 🧱 Full-stack & Product Engineering
 
