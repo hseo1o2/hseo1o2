@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:fa709a,100:fee140&height=280&section=header&text=Jang%20Hyeonseo&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%26%20Backend%20Engineer&descAlignY=53&descSize=22&descAlign=50)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:fa709a,100:fee140&height=280&section=header&text=Jang%20Hyeonseo&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Fullstack%20Developer%20|%20AI%20Enthusiast&descAlignY=53&descSize=22&descAlign=50)
 
 ### ✨ 문서 지능 · 금융 데이터 에이전트 · 프로덕션 백엔드
 ### Document Intelligence · Financial Data Agents · Production Backend Systems
