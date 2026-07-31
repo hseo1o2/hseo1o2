@@ -161,17 +161,17 @@ Evidence: [Backend & data contracts #1](https://github.com/1eehvunzin/dive2026/p
 ### 10TO10: Academy Operations Backend
 
 학부모 앱과 학원 스태프 앱을 함께 지원하는 NestJS backend를 구축했습니다.
-Organization의 비공개 저장소에서 진행한 협업이라 코드와 PR은 외부에 공개되지
-않지만, 담당한 API 범위는 아래와 같습니다.
+초기 창업팀의 비공개 제품이라 source code와 repository는 공개하지 않으며,
+아래 내용은 공개 가능한 범위에서 제가 구현한 부분만 정리했습니다.
 
 **기여한 부분**
 
-- NestJS 프로젝트와 공통 module 구조를 설정하고 사용자 유형 선택, 약관 동의, OTP 본인인증 onboarding을 구현했습니다.
-- 학부모 학교 검색, 학년과 닉네임 설정, My Class, 이벤트와 고객센터 API를 구현했습니다.
-- 학원 스태프용 home, profile, 강사진, 강좌, 공지사항, 설명회와 신청자 관리 API를 구현했습니다.
-- 상담 예약 승인과 거절, 채팅 관리, 역할별 메뉴 권한, 알림 수 조회와 Solapi SMS 발송을 연결했습니다.
+- 학부모와 학원 스태프의 기능을 app layer로 나누고, identity, organization, course, consultation 같은 공통 domain을 재사용하는 module 구조를 설계했습니다.
+- 사용자 유형 선택, 약관 동의, OTP 본인인증과 JWT 기반 session, 역할별 authorization을 포함한 onboarding을 구현했습니다.
+- 학부모의 학교 검색, 수업 탐색, 일정, 예약, My Class와 학원 스태프의 profile, 강사진, 강좌, 공지, 설명회와 신청자 관리 API를 구현했습니다.
+- 상담 승인과 거절, WebSocket chat, 알림과 SMS를 연결하고 multi-branch 조회, DB pagination, unread count의 N+1 문제 등 운영 단계의 병목을 개선했습니다.
 
-Repository: `10TO10PROJECT/10TO10-BE` (private collaboration)
+`Private startup project` · Code available only within the team
 
 ### [upstage-research-cli: Research-to-Evaluation CLI](https://github.com/hseo1o2/upstage-research-cli)
 
@@ -199,7 +199,9 @@ Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/
 ## 🧩 더 많은 협업 기여 · Additional Contributions
 
 대표 프로젝트 밖의 작업도 기능 단위로 남겼습니다. 모든 항목은 제가 작성한
-PR이나 organization 기록을 기준으로 정리했습니다.
+공개 PR과 접근 권한을 가진 private repository의 source, commit history를 직접
+확인해 정리했습니다. 비공개 창업팀 작업은 저장소와 코드를 연결하지 않고 공개
+가능한 문제와 기여 범위만 기록했습니다.
 
 | 프로젝트 | 내가 맡은 작업 | 근거 |
 |---|---|---|
@@ -207,7 +209,7 @@ PR이나 organization 기록을 기준으로 정리했습니다.
 | **UniConnect Frontend** | 학생 단체 쇼핑몰의 장바구니·주문·결제 UI, 제휴와 장기협업 신청 flow, 기업 협업 제안, S3 업로드, 로그인·회원가입과 API 연동을 구현했습니다. Vercel SPA routing과 운영 오류도 수정했습니다. | [Order & partnership #6](https://github.com/Uniconnect-Dev/Uniconnect-Front/pull/6) · [Company proposal & S3 #12](https://github.com/Uniconnect-Dev/Uniconnect-Front/pull/12) · [Routing #26](https://github.com/Uniconnect-Dev/Uniconnect-Front/pull/26) |
 | **EMS Copilot Frontend** | 구급대원 입력부터 AI 병원 선택까지의 MVP와 병원 화면을 구현했습니다. Hospital/paramedic app을 monorepo로 정리하고 API 연동과 배포 설정을 안정화했습니다. | [Paramedic MVP #1](https://github.com/EMS-copilot/ems-copilot-frontend/pull/1) · [Monorepo #10](https://github.com/EMS-copilot/ems-copilot-frontend/pull/10) · [Hospital UI #15](https://github.com/EMS-copilot/ems-copilot-frontend/pull/15) |
 | **IDly Client Surfaces** | Frontend의 access token refresh와 401 재시도, landing의 beta 신청 API, Toss 앱의 analytics event, banner ad와 action alias matching을 구현했습니다. | [Auth refresh #2](https://github.com/IDlyProject/IDly-Front/pull/2) · [Beta form #1](https://github.com/IDlyProject/IDly-landing/pull/1) · [Toss app #1](https://github.com/IDlyProject/IDly-apps-in-toss/pull/1) |
-| **Knock API** | 멘토 인증을 처리하는 Lambda API를 구현했습니다. 저장소는 현재 private organization에 있습니다. | `BigDataAnalysisCompany/knock-api-app` PR #14 |
+| **Knock: Mentor Verification Backend** | AWS Lambda 기반으로 회사 이메일과 PDF 두 가지 멘토 인증 흐름을 구현했습니다. DynamoDB verification session, OTP 만료와 재시도 잠금, 업로드 소유권·만료·실제 파일 검증, 중복 신청 방지를 API와 persistence layer에 반영했습니다. | Private startup contribution · Source code not disclosed |
 | **UMC Ewha 9th Web** | Web 파트의 주차별 mission을 구현하고 organization 저장소에 제출했습니다. 회장으로서 활동 운영과 함께 개발 과정을 기록했습니다. | [Authored PRs](https://github.com/UMC-Ewha-9th/umc-9th-web/pulls?q=is%3Apr+author%3Ahseo1o2) |
 | **Ewha 2025 Fall Course Repository** | Team 20의 project brief를 작성하고 요구사항 변경에 맞춰 여러 차례 갱신했습니다. | [Project brief #43](https://github.com/ekyuho/Ewha-2025-Fall/pull/43) · [Earlier revision #36](https://github.com/ekyuho/Ewha-2025-Fall/pull/36) |
 
@@ -223,7 +225,7 @@ PR이나 organization 기록을 기준으로 정리했습니다.
 | **[portfolio-site](https://github.com/hseo1o2/portfolio-site)** | React Router와 재사용 component로 만든 초기 개인 포트폴리오입니다. 현재 포트폴리오 이전 버전으로 보존합니다. |
 | **[Hackers Frontend Bootcamp](https://github.com/hseo1o2/Hackers-Frontend-Bootcamp)** | Vanilla JavaScript countdown과 Vue 기반 날씨·지도 API 실습을 모은 frontend 학습 저장소입니다. |
 | **[databaseteamproject](https://github.com/hseo1o2/databaseteamproject)** | 케이크 상품, 주문과 판매 data model을 다룬 데이터베이스 수업 팀 프로젝트 기록입니다. 기본 브랜치에는 소개만 남아 있습니다. |
-| **goinglive** | Email OTP login을 구현한 private prototype입니다. |
+| **GoingLive** | LiveKit WebRTC와 Supabase Edge Functions를 연결해 방송 생성·시작·종료, viewer 참여와 실시간 boost를 구현한 private MVP입니다. Email OTP, server-side data metering, realtime leaderboard, QR 공유, PWA cache와 오류 복구 흐름도 담당했습니다. | Private product prototype |
 
 ## 🧭 Engineering Focus
 
