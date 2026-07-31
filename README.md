@@ -58,8 +58,8 @@ and make those AI workflows reliable enough to run in production.
 
 ### [gongsiri — Financial Disclosure Risk Agent](https://github.com/GoBeromsu/gongsiri)
 
-> **한국어** · 기업 공시를 해석하고 수집된 근거를 바탕으로 질의응답하는 에이전트의 AI 위험 분석 계층을 구현했습니다.<br>
-> **English** · Built the AI risk-analysis layer for an agent that interprets corporate disclosures and answers questions against collected evidence.
+> 기업 공시를 해석하고 수집된 근거를 바탕으로 질의응답하는 에이전트의 AI 위험 분석 계층을 구현했습니다.<br>
+> *Built the AI risk-analysis layer for an agent that interprets corporate disclosures and answers questions against collected evidence.*
 
 **핵심 기여 · Key contributions**
 - Replaced a placeholder text-composition flow with a production-oriented **Solar Pro risk-analysis engine**
@@ -71,8 +71,8 @@ Evidence: [Solar risk engine PR #14](https://github.com/GoBeromsu/gongsiri/pull/
 
 ### [PitchCoach — Document & Multimodal AI Coaching](https://github.com/Capstone-POKI/Pitchcoach-AI)
 
-> **한국어** · 지원사업 공고문, IR Deck, 발표 음성, 질의응답을 함께 분석하는 멀티모달 AI 서비스의 파이프라인과 백엔드 연동을 주도했습니다.<br>
-> **English** · Led the AI pipeline and backend integration for a service that analyzes program notices, IR decks, rehearsal audio, and Q&A responses.
+> 지원사업 공고문, IR Deck, 발표 음성, 질의응답을 함께 분석하는 멀티모달 AI 서비스의 파이프라인과 백엔드 연동을 주도했습니다.<br>
+> *Led the AI pipeline and backend integration for a service that analyzes program notices, IR decks, rehearsal audio, and Q&A responses.*
 
 **핵심 기여 · Key contributions**
 - Stabilized a **Document AI → Gemini structured extraction** pipeline and implemented evidence-aware fallback rules for evaluation criteria and scoring
@@ -84,8 +84,8 @@ Evidence: [Document pipeline #9](https://github.com/Capstone-POKI/Pitchcoach-AI/
 
 ### [IDly — AI Email Security Backend](https://github.com/IDlyProject/IDly-Back)
 
-> **한국어** · Gmail 수집과 AI 위험 분석부터 보안 조치 및 운영 안정화까지 백엔드 핵심 흐름을 담당했습니다.<br>
-> **English** · Owned major parts of the backend flow from Gmail ingestion and AI analysis to security actions and production stabilization.
+> Gmail 수집과 AI 위험 분석부터 보안 조치 및 운영 안정화까지 백엔드 핵심 흐름을 담당했습니다.<br>
+> *Owned major parts of the backend flow from Gmail ingestion and AI analysis to security actions and production stabilization.*
 
 **핵심 기여 · Key contributions**
 - Implemented consent-aware Gmail onboarding, analysis persistence, evidence deduplication, and Solar-powered security reports
@@ -97,8 +97,8 @@ Evidence: [Core backend flow #3](https://github.com/IDlyProject/IDly-Back/pull/3
 
 ### [Enterprise Due Diligence — Data-Grounded BI Agent](https://github.com/1eehvunzin/dive2026)
 
-> **한국어** · 기업 실사, 후보 비교, 근거 기반 의사결정을 위한 데이터 계약 중심의 BI 백엔드를 구축했습니다.<br>
-> **English** · Built a data-contract-first backend for company due diligence, candidate comparison, and evidence-grounded decision support.
+> 기업 실사, 후보 비교, 근거 기반 의사결정을 위한 데이터 계약 중심의 BI 백엔드를 구축했습니다.<br>
+> *Built a data-contract-first backend for company due diligence, candidate comparison, and evidence-grounded decision support.*
 
 **핵심 기여 · Key contributions**
 - Combined financial, employment, patent, NTIS, support-history, and industry benchmark data for **2,886 companies**
@@ -110,8 +110,8 @@ Evidence: [Backend & data contracts #1](https://github.com/1eehvunzin/dive2026/p
 
 ### [upstage-research-cli — Research-to-Evaluation CLI](https://github.com/hseo1o2/upstage-research-cli)
 
-> **한국어** · AI 논문을 재사용 가능한 구현 및 평가 워크플로로 변환하는 CLI와 Agent Skill을 1인 개발했습니다.<br>
-> **English** · Created a CLI and Agent Skill that turn AI research papers into reusable implementation and evaluation workflows.
+> AI 논문을 재사용 가능한 구현 및 평가 워크플로로 변환하는 CLI와 Agent Skill을 1인 개발했습니다.<br>
+> *Created a CLI and Agent Skill that turn AI research papers into reusable implementation and evaluation workflows.*
 
 **핵심 기여 · Key contributions**
 - Parses papers with Upstage Document Parse and identifies reproducible method components
@@ -120,8 +120,8 @@ Evidence: [Backend & data contracts #1](https://github.com/1eehvunzin/dive2026/p
 
 ### [LOOPy — Location-Based Challenge & Stamp Backend](https://github.com/Organization-LOOPy/LOOPy-BE)
 
-> **한국어** · 동네 카페 서비스의 챌린지, 스탬프, 알림, 배포 흐름을 담당한 핵심 백엔드 기여자입니다.<br>
-> **English** · Served as a core backend contributor for the challenge, stamp, notification, and deployment flows of a location-based cafe service.
+> 동네 카페 서비스의 챌린지, 스탬프, 알림, 배포 흐름을 담당한 핵심 백엔드 기여자입니다.<br>
+> *Served as a core backend contributor for the challenge, stamp, notification, and deployment flows of a location-based cafe service.*
 
 **핵심 기여 · Key contributions**
 - Implemented and evolved challenge participation, stamp books, history, redemption, phone/QR accumulation, and owner/admin operations
