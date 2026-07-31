@@ -104,11 +104,12 @@ I build evidence-grounded AI workflows and the backend systems that keep them re
 
 Evidence: [Solar risk engine PR #14](https://github.com/GoBeromsu/gongsiri/pull/14) · [Authored PRs](https://github.com/GoBeromsu/gongsiri/pulls?q=is%3Apr+author%3Ahseo1o2)
 
-### [Threvix: Safe Customer Email Review Platform](https://github.com/Threvix-Dev)
+### Threvix: Safe Customer Email Review Platform
 
 고객 파일과 이메일을 Solar로 분석하되, 실제 수신자 선택과 최종 발송 판정은
 결정론적 규칙으로 통제하는 제품입니다. Next.js app, NestJS API, FastAPI AI
-서비스를 연결하고 세 저장소의 구현을 main에 통합했습니다.
+서비스를 연결하고 세 서비스의 구현을 제품 흐름으로 통합했습니다. 초기 창업팀의
+비공개 제품이라 source code와 repository는 공개하지 않습니다.
 
 **기여한 부분**
 
@@ -117,7 +118,7 @@ Evidence: [Solar risk engine PR #14](https://github.com/GoBeromsu/gongsiri/pull/
 - Solar Open 2의 strict structured output으로 schema mapping, 자연어 조건 컴파일, 콘텐츠 추출과 오타 제안을 구조화했습니다.
 - 개인정보 최소화, prompt injection 방어, 원문 span과 출력 의미 검증을 추가했습니다. AI 테스트 62개와 API 단위 테스트 30개를 통과한 상태로 통합했습니다.
 
-Evidence: [App PR #2](https://github.com/Threvix-Dev/threvix-app/pull/2) · [API PR #6](https://github.com/Threvix-Dev/threvix-api/pull/6) · [AI PR #8](https://github.com/Threvix-Dev/threvix-ai/pull/8)
+`Private startup project` · Contribution verified from source and commit history
 
 ### [PitchCoach: Document & Multimodal AI Coaching](https://github.com/Capstone-POKI/Pitchcoach-AI)
 
