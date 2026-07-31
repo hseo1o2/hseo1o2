@@ -27,7 +27,7 @@ and make those AI workflows reliable enough to run in production.
 
 - **Upstage × 서강대학교 AI Workflow Hackathon 대상(1위)**<br>
   *Grand Prize (1st Place), Upstage × Sogang University AI Workflow Hackathon*
-- **2026 Samsung Collegiate Programming Challenge: AI Challenge 출품** — Public leaderboard **0.7424**<br>
+- **2026 Samsung Collegiate Programming Challenge: AI Challenge 출품** — Best public leaderboard **0.8054**<br>
   *Round 1 participant — designed a deterministic agent harness for context resolution, safety control, minimal disclosure, and session memory.*
 - **UMC 이화 9기 회장 · UNIS 7기 학회장**<br>
   *President, UMC Ewha 9th · President, UNIS 7th*
