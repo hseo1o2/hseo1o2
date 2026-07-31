@@ -104,6 +104,21 @@ I build evidence-grounded AI workflows and the backend systems that keep them re
 
 Evidence: [Solar risk engine PR #14](https://github.com/GoBeromsu/gongsiri/pull/14) · [Authored PRs](https://github.com/GoBeromsu/gongsiri/pulls?q=is%3Apr+author%3Ahseo1o2)
 
+### [Threvix: Safe Customer Email Review Platform](https://github.com/Threvix-Dev)
+
+고객 파일과 이메일을 Solar로 분석하되, 실제 수신자 선택과 최종 발송 판정은
+결정론적 규칙으로 통제하는 제품입니다. Next.js app, NestJS API, FastAPI AI
+서비스를 연결하고 세 저장소의 구현을 main에 통합했습니다.
+
+**기여한 부분**
+
+- Supabase 로그인과 조직 설정, CSV/XLSX 업로드, 컬럼 매핑, 이메일 작성, 분석 결과와 최종 판정까지 이어지는 웹 흐름을 구현했습니다.
+- 조직 역할과 RLS 기반 tenant 격리, immutable recipient snapshot, BullMQ 비동기 분석과 재시도, 결정론적 정책 엔진을 NestJS API에 구현했습니다.
+- Solar Open 2의 strict structured output으로 schema mapping, 자연어 조건 컴파일, 콘텐츠 추출과 오타 제안을 구조화했습니다.
+- 개인정보 최소화, prompt injection 방어, 원문 span과 출력 의미 검증을 추가했습니다. AI 테스트 62개와 API 단위 테스트 30개를 통과한 상태로 통합했습니다.
+
+Evidence: [App PR #2](https://github.com/Threvix-Dev/threvix-app/pull/2) · [API PR #6](https://github.com/Threvix-Dev/threvix-api/pull/6) · [AI PR #8](https://github.com/Threvix-Dev/threvix-ai/pull/8)
+
 ### [PitchCoach: Document & Multimodal AI Coaching](https://github.com/Capstone-POKI/Pitchcoach-AI)
 
 지원사업 공고문, IR deck, 발표 음성과 질의응답을 함께 분석하는 multimodal AI pipeline과 backend integration을 주도했습니다.
@@ -143,6 +158,21 @@ Evidence: [Core backend flow #3](https://github.com/IDlyProject/IDly-Back/pull/3
 
 Evidence: [Backend & data contracts #1](https://github.com/1eehvunzin/dive2026/pull/1) · [Due-diligence report refinement #2](https://github.com/1eehvunzin/dive2026/pull/2)
 
+### 10TO10: Academy Operations Backend
+
+학부모 앱과 학원 스태프 앱을 함께 지원하는 NestJS backend를 구축했습니다.
+Organization의 비공개 저장소에서 진행한 협업이라 코드와 PR은 외부에 공개되지
+않지만, 담당한 API 범위는 아래와 같습니다.
+
+**기여한 부분**
+
+- NestJS 프로젝트와 공통 module 구조를 설정하고 사용자 유형 선택, 약관 동의, OTP 본인인증 onboarding을 구현했습니다.
+- 학부모 학교 검색, 학년과 닉네임 설정, My Class, 이벤트와 고객센터 API를 구현했습니다.
+- 학원 스태프용 home, profile, 강사진, 강좌, 공지사항, 설명회와 신청자 관리 API를 구현했습니다.
+- 상담 예약 승인과 거절, 채팅 관리, 역할별 메뉴 권한, 알림 수 조회와 Solapi SMS 발송을 연결했습니다.
+
+Repository: `10TO10PROJECT/10TO10-BE` (private collaboration)
+
 ### [upstage-research-cli: Research-to-Evaluation CLI](https://github.com/hseo1o2/upstage-research-cli)
 
 AI 논문을 재사용 가능한 구현과 평가 workflow로 바꾸는 CLI와 Agent Skill을 혼자 개발했습니다.
@@ -165,6 +195,35 @@ AI 논문을 재사용 가능한 구현과 평가 workflow로 바꾸는 CLI와 A
 - Docker Compose 배포 흐름을 통합하고 port 충돌을 제거했으며, production 배포 실패가 CI에 반영되도록 수정했습니다.
 
 Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/pull/20) · [Stamp domain #66](https://github.com/Organization-LOOPy/LOOPy-BE/pull/66) · [Domain refactor #282](https://github.com/Organization-LOOPy/LOOPy-BE/pull/282) · [Deployment stability #299](https://github.com/Organization-LOOPy/LOOPy-BE/pull/299)
+
+## 🧩 더 많은 협업 기여 · Additional Contributions
+
+대표 프로젝트 밖의 작업도 기능 단위로 남겼습니다. 모든 항목은 제가 작성한
+PR이나 organization 기록을 기준으로 정리했습니다.
+
+| 프로젝트 | 내가 맡은 작업 | 근거 |
+|---|---|---|
+| **Eduflo** | Solar mini 기반 학원 추천 챗봇의 session/message pipeline과 RLS를 구현했습니다. 쏘다 AlimTalk 채팅·설명회 알림, template 처리, demo와 production credential 분리도 담당했습니다. | [AI chatbot #28](https://github.com/10TO10PROJECT/eduflo/pull/28) · [AlimTalk #1](https://github.com/10TO10PROJECT/eduflo/pull/1) · [Production fix #14](https://github.com/10TO10PROJECT/eduflo/pull/14) |
+| **UniConnect Frontend** | 학생 단체 쇼핑몰의 장바구니·주문·결제 UI, 제휴와 장기협업 신청 flow, 기업 협업 제안, S3 업로드, 로그인·회원가입과 API 연동을 구현했습니다. Vercel SPA routing과 운영 오류도 수정했습니다. | [Order & partnership #6](https://github.com/Uniconnect-Dev/Uniconnect-Front/pull/6) · [Company proposal & S3 #12](https://github.com/Uniconnect-Dev/Uniconnect-Front/pull/12) · [Routing #26](https://github.com/Uniconnect-Dev/Uniconnect-Front/pull/26) |
+| **EMS Copilot Frontend** | 구급대원 입력부터 AI 병원 선택까지의 MVP와 병원 화면을 구현했습니다. Hospital/paramedic app을 monorepo로 정리하고 API 연동과 배포 설정을 안정화했습니다. | [Paramedic MVP #1](https://github.com/EMS-copilot/ems-copilot-frontend/pull/1) · [Monorepo #10](https://github.com/EMS-copilot/ems-copilot-frontend/pull/10) · [Hospital UI #15](https://github.com/EMS-copilot/ems-copilot-frontend/pull/15) |
+| **IDly Client Surfaces** | Frontend의 access token refresh와 401 재시도, landing의 beta 신청 API, Toss 앱의 analytics event, banner ad와 action alias matching을 구현했습니다. | [Auth refresh #2](https://github.com/IDlyProject/IDly-Front/pull/2) · [Beta form #1](https://github.com/IDlyProject/IDly-landing/pull/1) · [Toss app #1](https://github.com/IDlyProject/IDly-apps-in-toss/pull/1) |
+| **Knock API** | 멘토 인증을 처리하는 Lambda API를 구현했습니다. 저장소는 현재 private organization에 있습니다. | `BigDataAnalysisCompany/knock-api-app` PR #14 |
+| **UMC Ewha 9th Web** | Web 파트의 주차별 mission을 구현하고 organization 저장소에 제출했습니다. 회장으로서 활동 운영과 함께 개발 과정을 기록했습니다. | [Authored PRs](https://github.com/UMC-Ewha-9th/umc-9th-web/pulls?q=is%3Apr+author%3Ahseo1o2) |
+| **Ewha 2025 Fall Course Repository** | Team 20의 project brief를 작성하고 요구사항 변경에 맞춰 여러 차례 갱신했습니다. | [Project brief #43](https://github.com/ekyuho/Ewha-2025-Fall/pull/43) · [Earlier revision #36](https://github.com/ekyuho/Ewha-2025-Fall/pull/36) |
+
+## 📁 개인 프로젝트와 학습 기록 · Personal Archive
+
+| 저장소 | 내용 |
+|---|---|
+| **SCPC 2026 Agent Harness** | 외부 LLM/API 없이 문맥 참조, 안전 제어, 최소 공개와 session memory를 처리하는 deterministic harness입니다. Public leaderboard 최고 0.8054를 기록했으며 대회 일정 동안 [저장소](https://github.com/hseo1o2/scpc-2026-agent-harness)는 비공개로 유지합니다. |
+| **[SlideWise](https://github.com/hseo1o2/SlideWise)** | 강의 PDF를 Two-Pass AI로 분석해 개념 설명, 예상 문제, Q&A와 quiz를 제공하는 Next.js/Supabase 학습 서비스입니다. |
+| **[Football Performance Insight](https://github.com/hseo1o2/Football-Performance-Insight)** | EPL 2024-2025 데이터를 MariaDB에 적재하고 CRUD, ranking, window function과 rollup/drill-down 분석을 구현한 PHP 웹 프로젝트입니다. |
+| **[pymlstudy](https://github.com/hseo1o2/pymlstudy)** | 머신러닝 기본 과정과 공공데이터 기반 주차 수요 회귀 분석을 정리한 Jupyter 학습 기록입니다. |
+| **[summer-upskill](https://github.com/hseo1o2/summer-upskill)** | React state와 routing으로 문제 진행, 정답 피드백과 결과 화면을 구현한 TOEIC grammar quiz입니다. |
+| **[portfolio-site](https://github.com/hseo1o2/portfolio-site)** | React Router와 재사용 component로 만든 초기 개인 포트폴리오입니다. 현재 포트폴리오 이전 버전으로 보존합니다. |
+| **[Hackers Frontend Bootcamp](https://github.com/hseo1o2/Hackers-Frontend-Bootcamp)** | Vanilla JavaScript countdown과 Vue 기반 날씨·지도 API 실습을 모은 frontend 학습 저장소입니다. |
+| **[databaseteamproject](https://github.com/hseo1o2/databaseteamproject)** | 케이크 상품, 주문과 판매 data model을 다룬 데이터베이스 수업 팀 프로젝트 기록입니다. 기본 브랜치에는 소개만 남아 있습니다. |
+| **goinglive** | Email OTP login을 구현한 private prototype입니다. |
 
 ## 🧭 Engineering Focus
 
