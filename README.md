@@ -31,6 +31,19 @@ Computer Science @ Ewha Womans University
 - 2026 Samsung Collegiate Programming Challenge: AI Challenge 출품, best public leaderboard 0.8054
 - UMC 이화 9기 회장, UNIS 7기 학회장
 
+## 📄 연구 · Research
+
+### [Verified Misguidance: Measuring Structural Citation Failures in Search-Augmented LLMs](https://arxiv.org/abs/2605.28565)
+
+`arXiv:2605.28565` · Co-author
+
+Search-augmented LLM이 실제로 접근 가능한 출처를 인용하면서도 사용자를 잘못
+이끌 수 있는 citation failure를 분석했습니다. CITETRACE는 28개 커뮤니티의
+11,200개 query와 10개 모델의 112,000개 response를 연결하며, 761,495개 citation
+pair를 intent-purpose alignment, source suitability, answer-source fidelity로 평가합니다.
+
+[Paper](https://arxiv.org/abs/2605.28565) · [Code](https://github.com/oseoko/verified-misguidance) · [Dataset](https://huggingface.co/datasets/oseoko/citetrace-vm)
+
 ## 🛠️ 핵심 기술 · Core Stack
 
 `Python` · `TypeScript` · `FastAPI` · `NestJS` · `PostgreSQL` · `Docker` · `AWS`
