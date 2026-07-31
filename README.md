@@ -29,6 +29,7 @@ Computer Science @ Ewha Womans University
 
 - Upstage × 서강대학교 AI Workflow Hackathon 대상, Grand Prize (1st Place)
 - 2026 Samsung Collegiate Programming Challenge: AI Challenge 출품, best public leaderboard 0.8054
+- Upstage AI Ambassador 2기
 - UMC 이화 9기 회장, UNIS 7기 학회장
 
 ## 📄 연구 · Research
@@ -60,8 +61,6 @@ pair를 intent-purpose alignment, source suitability, answer-source fidelity로 
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
 
 **AI & LLM**
@@ -103,11 +102,6 @@ pair를 intent-purpose alignment, source suitability, answer-source fidelity로 
 
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
-<img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack"/>
 
 </div>
 
@@ -120,9 +114,9 @@ pair를 intent-purpose alignment, source suitability, answer-source fidelity로 
 | 프로젝트 | 핵심 작업 | 공개 근거 |
 |---|---|---|
 | **[gongsiri](https://github.com/GoBeromsu/gongsiri)** | 정량 검사와 contextual interpretation을 결합한 공시 risk-analysis agent | [Solar risk engine #14](https://github.com/GoBeromsu/gongsiri/pull/14) |
-| **[PitchCoach](https://github.com/Capstone-POKI/Pitchcoach-AI)** | 문서, IR deck, 발표 음성과 Q&A를 연결한 multimodal AI evaluation pipeline | [AI repository](https://github.com/Capstone-POKI/Pitchcoach-AI) |
+| **[Enterprise Due Diligence](https://github.com/1eehvunzin/dive2026)** | 2,886개 기업의 재무·고용·특허 데이터와 공고 원문을 연결한 BI agent | [Data contracts #1](https://github.com/1eehvunzin/dive2026/pull/1) · [Report refinement #2](https://github.com/1eehvunzin/dive2026/pull/2) |
 | **[upstage-research-cli](https://github.com/hseo1o2/upstage-research-cli)** | 논문 PDF를 근거 기반 방법론 분석과 재현 가능한 평가 코드로 바꾸는 CLI | [Repository](https://github.com/hseo1o2/upstage-research-cli) |
-| **[IDly Backend](https://github.com/IDlyProject/IDly-Back)** | Gmail 수집, AI 위험 분석과 deterministic security action을 연결한 backend | [Backend repository](https://github.com/IDlyProject/IDly-Back) |
+| **[PitchCoach](https://github.com/Capstone-POKI/Pitchcoach-AI)** | 문서, IR deck, 발표 음성과 Q&A를 연결한 multimodal AI evaluation pipeline | [AI repository](https://github.com/Capstone-POKI/Pitchcoach-AI) |
 
 <details>
 <summary><strong>대표 프로젝트별 기여 자세히 보기 · Detailed contributions</strong></summary>
@@ -254,7 +248,6 @@ Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/
 | 프로젝트 | 구현한 내용 | 근거 |
 |---|---|---|
 | **Eduflo** | Solar mini 기반 학원 추천 chatbot의 session/message pipeline과 RLS를 구현했습니다. AlimTalk 알림, template 처리, demo와 production credential 분리도 담당했습니다. | [AI chatbot #28](https://github.com/10TO10PROJECT/eduflo/pull/28) · [AlimTalk #1](https://github.com/10TO10PROJECT/eduflo/pull/1) · [Production fix #14](https://github.com/10TO10PROJECT/eduflo/pull/14) |
-| **SCPC 2026 Agent Harness** | 외부 LLM/API 없이 문맥 참조, 안전 제어, 최소 공개와 session memory를 처리하는 deterministic agent harness를 구현해 public leaderboard 0.8054를 기록했습니다. | Competition repository private |
 | **[SlideWise](https://github.com/hseo1o2/SlideWise)** | 강의 PDF를 Two-Pass AI로 분석해 개념 설명, 예상 문제, Q&A와 quiz를 생성하는 Next.js/Supabase 학습 서비스를 구현했습니다. | Public repository |
 
 ### ⚙️ Backend, Cloud & Realtime Systems
@@ -272,18 +265,14 @@ Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/
 | **EMS Copilot Frontend** | 구급대원 입력부터 AI 병원 선택까지의 MVP와 병원 화면을 구현했습니다. Hospital/paramedic app을 monorepo로 정리하고 API 연동과 배포 설정을 안정화했습니다. | [Paramedic MVP #1](https://github.com/EMS-copilot/ems-copilot-frontend/pull/1) · [Monorepo #10](https://github.com/EMS-copilot/ems-copilot-frontend/pull/10) · [Hospital UI #15](https://github.com/EMS-copilot/ems-copilot-frontend/pull/15) |
 | **IDly Client Surfaces** | Frontend의 access token refresh와 401 재시도, landing의 beta 신청 API, Toss 앱의 analytics event, banner ad와 action alias matching을 구현했습니다. | [Auth refresh #2](https://github.com/IDlyProject/IDly-Front/pull/2) · [Beta form #1](https://github.com/IDlyProject/IDly-landing/pull/1) · [Toss app #1](https://github.com/IDlyProject/IDly-apps-in-toss/pull/1) |
 | **UMC Ewha 9th Web** | Web 파트의 주차별 mission을 구현하고 organization 저장소에 제출했습니다. 회장으로서 활동 운영과 함께 개발 과정을 기록했습니다. | [Authored PRs](https://github.com/UMC-Ewha-9th/umc-9th-web/pulls?q=is%3Apr+author%3Ahseo1o2) |
-| **[summer-upskill](https://github.com/hseo1o2/summer-upskill)** | React state와 routing으로 문제 진행, 정답 피드백과 결과 화면을 구현한 TOEIC grammar quiz입니다. | Public repository |
-| **[portfolio-site](https://github.com/hseo1o2/portfolio-site)** | React Router와 재사용 component로 만든 초기 개인 포트폴리오입니다. | Public repository |
-| **[Hackers Frontend Bootcamp](https://github.com/hseo1o2/Hackers-Frontend-Bootcamp)** | Vanilla JavaScript countdown과 Vue 기반 날씨·지도 API 실습을 정리했습니다. | Public repository |
 
-### 📊 Data, ML & Coursework
+### 📊 Data & Evaluation
 
 | 프로젝트 | 구현한 내용 | 근거 |
 |---|---|---|
-| **[Football Performance Insight](https://github.com/hseo1o2/Football-Performance-Insight)** | EPL 2024-2025 데이터를 MariaDB에 적재하고 CRUD, ranking, window function과 rollup/drill-down 분석을 구현한 PHP 웹 프로젝트입니다. | Public repository |
-| **[pymlstudy](https://github.com/hseo1o2/pymlstudy)** | 머신러닝 기본 과정과 공공데이터 기반 주차 수요 회귀 분석을 정리한 Jupyter 학습 기록입니다. | Public repository |
-| **[databaseteamproject](https://github.com/hseo1o2/databaseteamproject)** | 케이크 상품, 주문과 판매 data model을 다룬 데이터베이스 수업 팀 프로젝트입니다. 기본 브랜치에는 소개만 남아 있습니다. | Public repository |
-| **Ewha 2025 Fall Course Repository** | Team 20의 project brief를 작성하고 요구사항 변경에 맞춰 여러 차례 갱신했습니다. | [Project brief #43](https://github.com/ekyuho/Ewha-2025-Fall/pull/43) · [Earlier revision #36](https://github.com/ekyuho/Ewha-2025-Fall/pull/36) |
+| **[Verified Misguidance](https://arxiv.org/abs/2605.28565)** | 112,000개 response와 761,495개 citation pair를 연결해 intent-purpose alignment, source suitability, answer-source fidelity를 평가했습니다. | [Paper](https://arxiv.org/abs/2605.28565) · [Code](https://github.com/oseoko/verified-misguidance) · [Dataset](https://huggingface.co/datasets/oseoko/citetrace-vm) |
+| **[Enterprise Due Diligence](https://github.com/1eehvunzin/dive2026)** | 2,886개 기업 데이터를 결합하고 time leakage, 결측값과 0, 단위 차이를 통제했습니다. 공고 원문과 page-level evidence를 report field에 연결했습니다. | [Backend & data contracts #1](https://github.com/1eehvunzin/dive2026/pull/1) · [Report refinement #2](https://github.com/1eehvunzin/dive2026/pull/2) |
+| **SCPC 2026 Agent Harness** | 문맥 참조와 안전 제어를 deterministic rule과 session memory로 처리하고 제출 결과를 반복 평가해 public leaderboard 0.8054를 기록했습니다. | Competition repository private |
 
 </details>
 
