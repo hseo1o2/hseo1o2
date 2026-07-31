@@ -20,11 +20,17 @@ and make those AI workflows reliable enough to run in production.
 ## 👋 소개 · About
 
 - 이화여자대학교 컴퓨터공학 전공 · **Computer Science @ Ewha Womans University**
-- Upstage × 서강대학교 AI Workflow Hackathon 대상(1위) · **Grand Prize**
 - 문서 지능, 근거 기반 에이전트, 멀티모달 AI, 프로덕션 백엔드에 관심이 있습니다.<br>
   *Interested in document intelligence, evidence-grounded agents, multimodal AI, and production backend engineering.*
-- UMC 이화 9기 회장 · UNIS 7기 학회장<br>
-  *President, UMC Ewha 9th · UNIS 7th*
+
+## 🏆 수상 및 활동 · Recognition & Activities
+
+- **Upstage × 서강대학교 AI Workflow Hackathon 대상(1위)**<br>
+  *Grand Prize (1st Place), Upstage × Sogang University AI Workflow Hackathon*
+- **2026 Samsung Collegiate Programming Challenge: AI Challenge 출품** — Public leaderboard **0.7424**<br>
+  *Round 1 participant — designed a deterministic agent harness for context resolution, safety control, minimal disclosure, and session memory.*
+- **UMC 이화 9기 회장 · UNIS 7기 학회장**<br>
+  *President, UMC Ewha 9th · President, UNIS 7th*
 
 <div align="center">
 
