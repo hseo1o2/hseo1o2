@@ -1,96 +1,120 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:fa709a,100:fee140&height=280&section=header&text=Jang%20Hyeonseo&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Fullstack%20Developer%20|%20AI%20Enthusiast&descAlignY=53&descSize=22&descAlign=50)
+# Jang Hyeonseo
+
+### AI & Backend Engineer
+
+**Document Intelligence · Financial Data Agents · Production Backend Systems**
+
+I build systems that turn unstructured documents and operational data into
+traceable decisions—and make those systems reliable enough to run in production.
+
+[![Email](https://img.shields.io/badge/Email-0102jhshs%40ewha.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:0102jhshs@ewha.ac.kr)
+[![GitHub](https://img.shields.io/badge/GitHub-hseo1o2-181717?style=flat-square&logo=github)](https://github.com/hseo1o2)
 
 </div>
 
-<h3 align="center">👋 About Me</h3>
-<p align="center">
-  Computer Science Student @ Ewha Womans University<br>
-  🏆 1st Place Winner - Upstage AI Workflow Hackathon<br>
-  🎯 UMC 9th President | UNIS 7th President
-</p>
+## About
+
+- Computer Science student at Ewha Womans University
+- 1st Place, Upstage AI Workflow Hackathon
+- Interested in document intelligence, evidence-grounded agents, multimodal AI, and production backend engineering
+- UMC 9th President · UNIS 7th President
+
+## Selected Work
+
+### [gongsiri — Financial Disclosure Risk Agent](https://github.com/GoBeromsu/gongsiri)
+
+Built the AI risk-analysis layer for an agent that interprets corporate disclosures
+and answers questions against collected evidence.
+
+- Replaced a placeholder text-composition flow with a production-oriented **Solar Pro risk-analysis engine**
+- Designed a two-stage analysis path: quantitative disclosure checks followed by contextual LLM interpretation
+- Added evidence-grounded Q&A, structured risk explanations, JSON recovery, and graceful fallback that preserves deterministic results when the model fails
+- Extended the analyzer into a deployable service with frontend and cloud deployment configuration
+
+Evidence: [Solar risk engine PR #14](https://github.com/GoBeromsu/gongsiri/pull/14) · [Authored PRs](https://github.com/GoBeromsu/gongsiri/pulls?q=is%3Apr+author%3Ahseo1o2)
+
+### [PitchCoach — Document & Multimodal AI Coaching](https://github.com/Capstone-POKI/Pitchcoach-AI)
+
+Led the AI pipeline and backend integration for a service that analyzes program
+notices, IR decks, rehearsal audio, and Q&A responses.
+
+- Stabilized a **Document AI → Gemini structured extraction** pipeline and implemented evidence-aware fallback rules for evaluation criteria and scoring
+- Connected notice requirements to IR-deck analysis, adding slide classification, OCR cleanup, criterion-level scores, explanations, and report generation
+- Built FastAPI flows for asynchronous deck analysis, Whisper-based rehearsal analysis, and Gemini-based Q&A evaluation
+- Implemented the NestJS integration layer for AI job polling, result persistence, version comparison, failure states, authentication, and EC2/Docker deployment
+
+Evidence: [Document pipeline #9](https://github.com/Capstone-POKI/Pitchcoach-AI/pull/9) · [IR analysis #19](https://github.com/Capstone-POKI/Pitchcoach-AI/pull/19) · [Voice analysis #21](https://github.com/Capstone-POKI/Pitchcoach-AI/pull/21) · [Backend AI sync #12](https://github.com/Capstone-POKI/Pitchcoach-BACK/pull/12)
+
+### [IDly — AI Email Security Backend](https://github.com/IDlyProject/IDly-Back)
+
+Owned major parts of the backend flow from Gmail ingestion and AI analysis to
+security actions and production stabilization.
+
+- Implemented consent-aware Gmail onboarding, analysis persistence, evidence deduplication, and Solar-powered security reports
+- Designed a deterministic **Action Assistant state machine** where the LLM explains actions but cannot invent official URLs, change risk levels, or mark actions complete
+- Hardened authentication and privacy with refresh-token rotation, ownership checks, rate limits, secret detection, log redaction, and LLM-context masking
+- Reworked large-mailbox ingestion into disk streaming and added retry, cooldown, memory caps, and schema validation to prevent production OOM and overlapping analysis
+
+Evidence: [Core backend flow #3](https://github.com/IDlyProject/IDly-Back/pull/3) · [Action Assistant #11](https://github.com/IDlyProject/IDly-Back/pull/11) · [Security hardening #18](https://github.com/IDlyProject/IDly-Back/pull/18) · [Streaming OOM fix #29](https://github.com/IDlyProject/IDly-Back/pull/29) · [Stability & AI mapping #45](https://github.com/IDlyProject/IDly-Back/pull/45)
+
+### [Enterprise Due Diligence — Data-Grounded BI Agent](https://github.com/1eehvunzin/dive2026)
+
+Built a data-contract-first backend for company due diligence, candidate
+comparison, and evidence-grounded decision support.
+
+- Combined financial, employment, patent, NTIS, support-history, and industry benchmark data for **2,886 companies**
+- Prevented time leakage, separated missing values from zero, normalized units, and replaced random similarity with cohort-based distance
+- Built a **Document Parse → Solar Pro** pipeline that extracts program requirements with source pages, original text, and review status
+- Restricted agent answers to report fields and evidence IDs; added regression checks for generated-score errors and historical-data leakage
+
+Evidence: [Backend & data contracts #1](https://github.com/1eehvunzin/dive2026/pull/1) · [Due-diligence report refinement #2](https://github.com/1eehvunzin/dive2026/pull/2)
+
+### [upstage-research-cli — Research-to-Evaluation CLI](https://github.com/hseo1o2/upstage-research-cli)
+
+Created a CLI that turns AI research papers into reusable implementation and
+evaluation workflows.
+
+- Parses papers with Upstage Document Parse and identifies reproducible method components
+- Generates evaluation code and normalized metric definitions from paper evidence
+- Packages the workflow as reusable Agent Skills with regression fixtures and structured outputs
+
+### [LOOPy — Location-Based Challenge & Stamp Backend](https://github.com/Organization-LOOPy/LOOPy-BE)
+
+Served as a core backend contributor for the challenge, stamp, notification, and
+deployment flows of a location-based cafe service.
+
+- Implemented and evolved challenge participation, stamp books, history, redemption, phone/QR accumulation, and owner/admin operations
+- Refactored large controllers into domain services and shared validation/date utilities while preserving frontend response contracts
+- Tightened cafe-search filters and notification authorization around ownership and user opt-in settings
+- Unified deployment on Docker Compose, removed port conflicts, and made CI fail when the production deployment actually fails
+
+Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/pull/20) · [Stamp domain #66](https://github.com/Organization-LOOPy/LOOPy-BE/pull/66) · [Domain refactor #282](https://github.com/Organization-LOOPy/LOOPy-BE/pull/282) · [Deployment stability #299](https://github.com/Organization-LOOPy/LOOPy-BE/pull/299)
+
+## Engineering Focus
+
+| Area | Experience |
+|---|---|
+| AI & LLM | Document intelligence, structured extraction, RAG, evidence-grounded agents, Gemini, Upstage Solar, Whisper |
+| Backend | Python, FastAPI, TypeScript, NestJS, Express, REST API design, asynchronous jobs |
+| Data | PostgreSQL, Prisma, SQLite, schema design, data validation, leakage prevention, evaluation datasets |
+| Production | Docker, GitHub Actions, AWS EC2/S3, Render, retries, observability, memory and failure handling |
+
+## How I Work
+
+I care about the boundary between an AI model and the surrounding software:
+what must remain deterministic, what evidence should be retained, how failures
+degrade safely, and how an experimental pipeline becomes an operable product.
 
 <br>
 
-<h3 align="center">💻 Tech Stack</h3>
-
 <div align="center">
 
-**Languages & Frameworks**
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-
-**Frontend**
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-
-**Backend**
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
-
-**Database**
-
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-
-**DevOps & Cloud**
-
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/> <img src="https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-
-**AI & LLM**
-
-<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/> <img src="https://img.shields.io/badge/Upstage_Solar-FF6B35?style=for-the-badge&logo=solaredge&logoColor=white"/> <img src="https://img.shields.io/badge/Google_Document_AI-4285F4?style=for-the-badge&logo=google&logoColor=white"/> <img src="https://img.shields.io/badge/LayoutLM-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/> <img src="https://img.shields.io/badge/Prompt_Engineering-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-
-</div>
-
-<br>
-
-<h3 align="center">🚀 Featured Projects</h3>
-
-<div align="center">
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **PitchCoach** | AI-based presentation coaching platform (Graduation Project) | TypeScript, React, Node.js, LLM |
-| **LOOPy** | Cafe stamp management service | Node.js, Express, Prisma, AWS S3 |
-| **POKI-AI** | Korean business document analysis system | Python, Google Document AI, Gemini, LayoutLM |
-| **EMS Copilot Korea** | Emergency medical services system | TypeScript, React |
-| **UniConnect** | University student marketing platform | Full-stack Development |
-
-</div>
-
-<br>
-
-<h3 align="center">🔨 Tools</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/> <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/>
-</div>
-
-
-<br>
-
-<h3 align="center">📮 Contact</h3>
-<div align="center">
-  <a href="mailto:0102jhshs@ewha.ac.kr">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/> 
-  </a>
-  <a href="https://github.com/hseo1o2">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</div>
-
-<br>
-
-<div align="center">
+### 🐾 My GitHub Farm
 
 <a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/farms/hseo1o2"/>
+  <img src="https://render.gitanimals.org/farms/hseo1o2" alt="Hyeonseo's GitHub animal farm"/>
 </a>
-
-</div>
-
-<div align="center">
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:fa709a,100:fee140&height=150&section=footer)
 
 </div>
