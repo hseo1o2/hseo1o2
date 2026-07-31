@@ -2,12 +2,12 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:fa709a,100:fee140&height=280&section=header&text=Jang%20Hyeonseo&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%7C%20Backend%20Engineer&descAlignY=53&descSize=22&descAlign=50)
 
-### ✨ Document Intelligence · 금융 데이터 에이전트 · Production Backend
+### ✨ Document Intelligence · Evidence-Grounded AI · Production Backend
 
-비정형 문서와 운영 데이터를 근거가 추적되는 의사결정으로 바꾸고,<br>
-실험적인 AI 흐름을 실제 서비스에서 안정적으로 운영하는 데 관심이 있습니다.
+비정형 문서와 운영 데이터를 구조화하고, AI의 판단 근거가 실제 서비스에서도<br>
+추적되고 검증될 수 있는 시스템을 만듭니다.
 
-I build evidence-grounded AI workflows and the backend systems that keep them reliable in production.
+I build document AI workflows and the backend systems that make their evidence traceable and their behavior reliable in production.
 
 [![Email](https://img.shields.io/badge/Email-0102jhshs%40ewha.ac.kr-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:0102jhshs@ewha.ac.kr)
 [![GitHub](https://img.shields.io/badge/GitHub-hseo1o2-181717?style=for-the-badge&logo=github)](https://github.com/hseo1o2)
@@ -15,11 +15,15 @@ I build evidence-grounded AI workflows and the backend systems that keep them re
 
 </div>
 
-## 👋 소개와 관심 분야 · About
+## 🔎 만드는 것과 기준 · What I Build
 
-- 이화여자대학교 컴퓨터공학 전공, Computer Science @ Ewha Womans University
-- 관심 분야는 document intelligence, evidence-grounded agent, multimodal AI, production backend입니다.
-- 모델의 결과뿐 아니라 근거, 실패 처리, 개인정보 보호와 운영 안정성까지 함께 설계합니다.
+Computer Science @ Ewha Womans University
+
+| 영역 | 제가 집중하는 문제 |
+|---|---|
+| **Document Intelligence** | PDF, 이메일, 표와 음성을 구조화하고 결과를 원문 evidence와 연결합니다. |
+| **Reliable AI Workflows** | 모델의 제안과 시스템의 결정을 분리하고 schema validation, fallback, evaluation으로 출력을 검증합니다. |
+| **Production Backend** | 인증, 비동기 작업, retry, idempotency, 개인정보 보호와 메모리 제한까지 운영 조건을 함께 설계합니다. |
 
 ## 🏆 수상과 활동 · Recognition
 
@@ -27,9 +31,16 @@ I build evidence-grounded AI workflows and the backend systems that keep them re
 - 2026 Samsung Collegiate Programming Challenge: AI Challenge 출품, best public leaderboard 0.8054
 - UMC 이화 9기 회장, UNIS 7기 학회장
 
-<div align="center">
+## 🛠️ 핵심 기술 · Core Stack
 
-## 🛠️ Tech Stack
+`Python` · `TypeScript` · `FastAPI` · `NestJS` · `PostgreSQL` · `Docker` · `AWS`
+
+<details>
+<summary><strong>전체 기술 스택과 도구 보기 · View full stack</strong></summary>
+
+<br>
+
+<div align="center">
 
 **Languages**
 
@@ -87,9 +98,23 @@ I build evidence-grounded AI workflows and the backend systems that keep them re
 
 </div>
 
+</details>
+
 <br>
 
 ## 🚀 주요 프로젝트 · Selected Work
+
+| 프로젝트 | 핵심 작업 | 공개 근거 |
+|---|---|---|
+| **[gongsiri](https://github.com/GoBeromsu/gongsiri)** | 정량 검사와 contextual interpretation을 결합한 공시 risk-analysis agent | [Solar risk engine #14](https://github.com/GoBeromsu/gongsiri/pull/14) |
+| **[PitchCoach](https://github.com/Capstone-POKI/Pitchcoach-AI)** | 문서, IR deck, 발표 음성과 Q&A를 연결한 multimodal AI evaluation pipeline | [AI repository](https://github.com/Capstone-POKI/Pitchcoach-AI) |
+| **[upstage-research-cli](https://github.com/hseo1o2/upstage-research-cli)** | 논문 PDF를 근거 기반 방법론 분석과 재현 가능한 평가 코드로 바꾸는 CLI | [Repository](https://github.com/hseo1o2/upstage-research-cli) |
+| **[IDly Backend](https://github.com/IDlyProject/IDly-Back)** | Gmail 수집, AI 위험 분석과 deterministic security action을 연결한 backend | [Backend repository](https://github.com/IDlyProject/IDly-Back) |
+
+<details>
+<summary><strong>대표 프로젝트별 기여 자세히 보기 · Detailed contributions</strong></summary>
+
+<br>
 
 ### [gongsiri: Financial Disclosure Risk Agent](https://github.com/GoBeromsu/gongsiri)
 
@@ -197,12 +222,19 @@ AI 논문을 재사용 가능한 구현과 평가 workflow로 바꾸는 CLI와 A
 
 Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/pull/20) · [Stamp domain #66](https://github.com/Organization-LOOPy/LOOPy-BE/pull/66) · [Domain refactor #282](https://github.com/Organization-LOOPy/LOOPy-BE/pull/282) · [Deployment stability #299](https://github.com/Organization-LOOPy/LOOPy-BE/pull/299)
 
+</details>
+
 ## 🗺️ 기술 분야별 프로젝트 · Project Map
 
 대표 프로젝트 밖의 경험은 소유 형태보다 실제로 다룬 기술 문제를 기준으로
 분류했습니다. 공개 항목은 제가 작성한 PR과 repository를 연결했고, 창업팀의
 비공개 제품은 접근 권한이 있는 source와 commit history로 기여 범위를 확인하되
 코드와 내부 저장소는 공개하지 않습니다.
+
+<details>
+<summary><strong>전체 프로젝트 보기 · View all projects</strong></summary>
+
+<br>
 
 ### 🤖 AI, LLM & Agent Systems
 
@@ -240,14 +272,7 @@ Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/
 | **[databaseteamproject](https://github.com/hseo1o2/databaseteamproject)** | 케이크 상품, 주문과 판매 data model을 다룬 데이터베이스 수업 팀 프로젝트입니다. 기본 브랜치에는 소개만 남아 있습니다. | Public repository |
 | **Ewha 2025 Fall Course Repository** | Team 20의 project brief를 작성하고 요구사항 변경에 맞춰 여러 차례 갱신했습니다. | [Project brief #43](https://github.com/ekyuho/Ewha-2025-Fall/pull/43) · [Earlier revision #36](https://github.com/ekyuho/Ewha-2025-Fall/pull/36) |
 
-## 🧭 Engineering Focus
-
-| 영역 | 경험 |
-|---|---|
-| AI & LLM | Document intelligence, structured extraction, RAG, evidence-grounded agent |
-| Backend | Python, FastAPI, TypeScript, NestJS, Express, REST API, 비동기 작업 |
-| Data | PostgreSQL, Prisma, SQLite, schema design, validation, leakage prevention |
-| Production | Docker, GitHub Actions, AWS EC2/S3, retry, observability, memory and failure handling |
+</details>
 
 ## 💡 일하는 방식 · How I Work
 
