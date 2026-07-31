@@ -276,17 +276,9 @@ Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/
 
 </details>
 
-## 💡 일하는 방식 · How I Work
-
-AI 모델과 주변 소프트웨어의 경계를 중요하게 생각합니다. 무엇을 결정론적으로
-유지할지, 어떤 근거를 남길지, 실패했을 때 어디까지 안전하게 동작할지를 먼저
-정합니다. 그 기준으로 실험 단계의 pipeline을 운영 가능한 제품으로 옮깁니다.
-
 <br>
 
 <div align="center">
-
-### 🐾 GitHub 동물 농장 · My GitHub Farm
 
 <a href="https://github.com/devxb/gitanimals">
   <img src="https://render.gitanimals.org/farms/hseo1o2" alt="Hyeonseo's GitHub animal farm"/>
