@@ -106,3 +106,15 @@ Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/
 I care about the boundary between an AI model and the surrounding software:
 what must remain deterministic, what evidence should be retained, how failures
 degrade safely, and how an experimental pipeline becomes an operable product.
+
+<br>
+
+<div align="center">
+
+### 🐾 My GitHub Farm
+
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/hseo1o2" alt="Hyeonseo's GitHub animal farm"/>
+</a>
+
+</div>
