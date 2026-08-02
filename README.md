@@ -47,7 +47,7 @@ pair를 intent-purpose alignment, source suitability, answer-source fidelity로 
 
 ## 🛠️ 핵심 기술 · Core Stack
 
-`Python` · `TypeScript` · `FastAPI` · `NestJS` · `PostgreSQL` · `Docker` · `AWS`
+`Python` · `PyTorch` · `NumPy` · `TypeScript` · `FastAPI` · `NestJS` · `PostgreSQL` · `Docker` · `AWS`
 
 <details>
 <summary><strong>전체 기술 스택과 도구 보기 · View full stack</strong></summary>
@@ -65,6 +65,9 @@ pair를 intent-purpose alignment, source suitability, answer-source fidelity로 
 
 **AI & LLM**
 
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
 <img src="https://img.shields.io/badge/Upstage_Solar-FF6B35?style=for-the-badge&logoColor=white" alt="Upstage Solar"/>
 <img src="https://img.shields.io/badge/Document_Parse-FF6B35?style=for-the-badge&logoColor=white" alt="Document Parse"/>
 <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
@@ -272,6 +275,7 @@ Evidence: [Challenge domain #20](https://github.com/Organization-LOOPy/LOOPy-BE/
 |---|---|---|
 | **[Verified Misguidance](https://arxiv.org/abs/2605.28565)** | 112,000개 response와 761,495개 citation pair를 연결해 intent-purpose alignment, source suitability, answer-source fidelity를 평가했습니다. | [Paper](https://arxiv.org/abs/2605.28565) · [Code](https://github.com/oseoko/verified-misguidance) · [Dataset](https://huggingface.co/datasets/oseoko/citetrace-vm) |
 | **[Enterprise Due Diligence](https://github.com/1eehvunzin/dive2026)** | 2,886개 기업 데이터를 결합하고 time leakage, 결측값과 0, 단위 차이를 통제했습니다. 공고 원문과 page-level evidence를 report field에 연결했습니다. | [Backend & data contracts #1](https://github.com/1eehvunzin/dive2026/pull/1) · [Report refinement #2](https://github.com/1eehvunzin/dive2026/pull/2) |
+| **[Deep Learning Experiments](https://github.com/hseo1o2/deep-learning-experiments)** | NumPy로 2-layer MLP의 forward/backprop과 gradient check를 구현하고 CIFAR-10 설정 8개를 비교했습니다. PyTorch로 residual classifier와 Pascal VOC U-Net 실험도 정리했습니다. | [Code, metrics & result plots](https://github.com/hseo1o2/deep-learning-experiments) |
 | **SCPC 2026 Agent Harness** | 문맥 참조와 안전 제어를 deterministic rule과 session memory로 처리하고 제출 결과를 반복 평가해 public leaderboard 0.8054를 기록했습니다. | Competition repository private |
 
 </details>
